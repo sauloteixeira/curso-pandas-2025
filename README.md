@@ -1,0 +1,3 @@
+# Curso de Pandas com Teo Me Why
+1. Dia 01: 
+2. Dia 02: ...
