@@ -17,10 +17,13 @@ Utilizaremos dados reais durante o nosso curso. Acesse os [dados aqui](https://w
 
 ## Ementa
 
+DIA 01 - ok
+
 1. Principais objetos do Pandas
     - Series
     - Dataframes
 
+DIA 02 - ok
 2. Importando arquivos com pandas
     - csv; xlsx; parquet
 
@@ -29,6 +32,8 @@ Utilizaremos dados reais durante o nosso curso. Acesse os [dados aqui](https://w
     - Tipos de colunas
     - Navegação em linhas e colunas
     - Renomeando colunas
+
+DIA 03
 
 4. Filtrando dados
     - Condições lógicas

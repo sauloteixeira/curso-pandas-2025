@@ -1,0 +1,15 @@
+# Ignorar arquivos do Microsoft PowerPoint
+*.ppt
+*.pptx
+*.pps
+*.ppsx
+*.pot
+*.potx
+
+#ignorar arquivos de bases de dados
+*.csv
+*.json
+*.csv
+*.parquet
+*.xlsx
+*.xls
