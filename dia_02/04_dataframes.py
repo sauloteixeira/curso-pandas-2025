@@ -10,8 +10,12 @@ df_clientes.head(n=10)
 
 
 #%%
-n = 3
+n = 8
 df_clientes.tail(n)
+
+#%%
+n = 5
+df_clientes.sample(n)
 
 #%%
 print(df_clientes.shape)
@@ -24,4 +28,4 @@ print(df_clientes.info(memory_usage="deep"))
 
 #%%
 df_clientes.dtypes
-df_clientes.dtypes["IdCliente"]
+# df_clientes.dtypes["IdCliente"]

@@ -8,6 +8,9 @@ df = pd.read_csv("../data/transacoes.csv", sep=";")
 df.shape
 
 #%%
+df.head(n=5)
+
+#%%
 
 df.info(memory_usage="deep")
 
@@ -36,7 +39,7 @@ df.rename(columns=renamed_coluns, inplace=True)
 df.info(memory_usage="deep")
 
 #%%
-colunas = ["IdCliente", "QtPontos"]
+colunas = ["IdCliente", "QtPontos", ]
 
 df[colunas]
 
@@ -54,8 +57,8 @@ df[["IdCliente"]]
 # SELECT idCliente, qtPontos FROM df LIMIT 5
 
 df[["IdCliente", "QtPontos"]].sample(5)
-df[["IdCliente", "QtPontos"]].head(5)
-df[["IdCliente", "QtPontos"]].tail(5)
+# df[["IdCliente", "QtPontos"]].head(5)
+# df[["IdCliente", "QtPontos"]].tail(5)
 
 # %%
 
