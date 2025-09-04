@@ -17,6 +17,7 @@ replace = {"0000-00-00 00:00:00": "1900-01-01 00:00:00"}
 
 #%%
 df["DtCriacao"] = pd.to_datetime(df["DtCriacao"].replace(replace))
+df["DtCriacao"]
 
 #%%
 df["DtCriacao"].dt.month
